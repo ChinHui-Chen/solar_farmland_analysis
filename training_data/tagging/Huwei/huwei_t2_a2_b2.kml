@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>huwei_t2_a2_b2.kml</name>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff00</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>80ffff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin00">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff00</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>80ffff00</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>huwei_t2_a2_b2</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>01</name>
+			<visibility>0</visibility>
+			<styleUrl>#msn_ylw-pushpin0</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							120.4017683596874,23.70402497491032,0 120.4018121648524,23.70395383027407,0 120.402268567757,23.70419723280129,0 120.4022262315685,23.704254411123,0 120.4017683596874,23.70402497491032,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>02</name>
+			<visibility>0</visibility>
+			<styleUrl>#msn_ylw-pushpin0</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							120.405482018607,23.69444845562855,0 120.4055172687271,23.6944446603132,0 120.4055172771931,23.69443136274218,0 120.4055525222591,23.69443136767817,0 120.405554586321,23.69444276503674,0 120.4056167681959,23.6944427722774,0 120.4056208990893,23.69445606630865,0 120.4056499122049,23.69445417000045,0 120.4056843093875,23.69490876282545,0 120.405599512136,23.69492010566112,0 120.4055167952096,23.69492388638427,0 120.405482018607,23.69444845562855,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>03</name>
+			<visibility>0</visibility>
+			<styleUrl>#msn_ylw-pushpin0</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							120.4014023530817,23.70024144467049,0 120.4013293887674,23.70003644197892,0 120.4014404687327,23.70000051981468,0 120.4015194517868,23.70019785726234,0 120.4014023530817,23.70024144467049,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

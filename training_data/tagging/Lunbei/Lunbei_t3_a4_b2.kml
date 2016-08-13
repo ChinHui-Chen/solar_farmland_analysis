@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Lunbei_t3_a4_b2.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>Lunbei_t3_a4_b2</name>
+		<Placemark>
+			<name>Lunbei_t3_a4_b2/27</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							120.3170735460636,23.77644518272152,0 120.3175165167619,23.77555549343836,0 120.3175909721536,23.77558946289615,0 120.3171608939593,23.77649309101782,0 120.3170735460636,23.77644518272152,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Lunbei_t3_a4_b2/7</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							120.3335940582854,23.77875874491428,0 120.3337266471593,23.77875131573762,0 120.3337616860346,23.77965768703922,0 120.3336708786818,23.77965202322368,0 120.3336630641578,23.77956778929916,0 120.3336064350483,23.77958202882549,0 120.3335940582854,23.77875874491428,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Lunbei_t3_a4_b2/2</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							120.3431118889672,23.79929543594175,0 120.3431213851438,23.79925180891706,0 120.3433631335166,23.79924619151689,0 120.3433663257796,23.79928985896207,0 120.3431118889672,23.79929543594175,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Lunbei_t3_a4_b2/29</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							120.3193694641801,23.77750449178454,0 120.3198325366558,23.77650208248384,0 120.3199520943951,23.77654081466852,0 120.3194808142706,23.77755198571831,0 120.3193694641801,23.77750449178454,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Lunbei_t3_a4_b2/9</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							120.3338836681104,23.77871599466606,0 120.3340864835048,23.77870372154156,0 120.3341177713612,23.77970666147769,0 120.3340508411444,23.77975152885741,0 120.3339230543595,23.77976644794608,0 120.3338836681104,23.77871599466606,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Lunbei_t3_a4_b2/8</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							120.3337492773267,23.77875131682773,0 120.3338515104889,23.77874020243792,0 120.333898302198,23.7797504858715,0 120.333778795513,23.77976507988826,0 120.3337492773267,23.77875131682773,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Lunbei_t3_a4_b2/1</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							120.3431191281102,23.79937285957983,0 120.3431243441932,23.79930761260586,0 120.3433832760216,23.79929803828546,0 120.3433778482196,23.79936306032037,0 120.3431191281102,23.79937285957983,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Lunbei_t3_a4_b2/25</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							120.3166888724883,23.77637847486266,0 120.3169148501996,23.7759647255635,0 120.3169770546487,23.77598325437663,0 120.3167485345292,23.77642008975566,0 120.3166888724883,23.77637847486266,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Lunbei_t3_a4_b2/26</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							120.316835604997,23.77643673284427,0 120.3172631475479,23.77549484299051,0 120.3173630452817,23.77552935474407,0 120.3169086903108,23.77648442118464,0 120.316835604997,23.77643673284427,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Lunbei_t3_a4_b2/3</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							120.3276034926818,23.79944741597615,0 120.3277015655063,23.79942619072908,0 120.3277096132416,23.79947069744983,0 120.3276076607533,23.79949231445171,0 120.3276034926818,23.79944741597615,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Lunbei_t3_a4_b2/28</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							120.319077065224,23.77747879198294,0 120.3195921089915,23.7764087331227,0 120.3197716277302,23.77646331418733,0 120.3192407211562,23.77756092442134,0 120.319077065224,23.77747879198294,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Lunbei_t3_a4_b2/6</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							120.3277217555212,23.79941071452841,0 120.327719343015,23.7993674566796,0 120.3278236615352,23.79935005621246,0 120.3278271609578,23.79939608025902,0 120.3277217555212,23.79941071452841,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Lunbei_t3_a4_b2/4</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							120.3275923713905,23.79943782273073,0 120.3275829908089,23.79938779871858,0 120.3276967505648,23.79936726645093,0 120.3277045970417,23.79941368640066,0 120.3275923713905,23.79943782273073,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Lunbei_t3_a4_b2/5</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							120.3277298612319,23.79947088177797,0 120.3277244974365,23.79942325263132,0 120.3278187811476,23.79940844051321,0 120.3278222324401,23.79945255414111,0 120.3277298612319,23.79947088177797,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Lunbei_t3_a4_b2/36</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							120.3140157806324,23.75720181770469,0 120.3141238747664,23.75643097855185,0 120.3144166597235,23.75645453040799,0 120.3143198711299,23.7572315746809,0 120.3140157806324,23.75720181770469,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

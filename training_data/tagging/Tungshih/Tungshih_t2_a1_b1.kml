@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Tungshih_t2_a1_b1.kml</name>
+	<Style id="s_ylw-pushpin01">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl10">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>Tungshih_t2_a1_b1</name>
+		<Placemark>
+			<name>1 1</name>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							120.2338827876114,23.67706725833408,0 120.2338766096986,23.67671900119455,0 120.2341346916635,23.67671458128394,0 120.234145799728,23.6766477547717,0 120.2342251917121,23.67662710783102,0 120.2342411902715,23.67657380049941,0 120.23439631946,23.67656082848926,0 120.2344222757635,23.67661610020155,0 120.2345926796997,23.67661246296039,0 120.234608291714,23.67708804350936,0 120.2342515393958,23.67711457956678,0 120.2339554716252,23.67709261966129,0 120.2338827876114,23.67706725833408,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>1 2</name>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							120.2346183530297,23.67710174103271,0 120.2347538348417,23.67710880471143,0 120.2348896356937,23.67710973741915,0 120.2350710231208,23.67710721803192,0 120.2351483534735,23.67713036322236,0 120.2352954201586,23.67716953600133,0 120.2352783223065,23.67730645865007,0 120.2351361979587,23.67731552464677,0 120.2351067663779,23.67735709548406,0 120.2347782051277,23.67736665075667,0 120.2347516369597,23.67743824935215,0 120.2346102079218,23.67744980095144,0 120.2346183530297,23.67710174103271,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Eulen_t3_a4_b2.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>Eulen_t3_a4_b2</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>Eulen_t3_a4_b2/5</name>
+			<visibility>0</visibility>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							120.3544685138207,23.7934376723635,0 120.3547004647295,23.79342873394285,0 120.3546952254984,23.79425957706806,0 120.3544410921476,23.79426607648751,0 120.3544685138207,23.7934376723635,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Eulen_t3_a4_b2/4</name>
+			<visibility>0</visibility>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							120.3563108427909,23.79245120848755,0 120.3565048557463,23.79245641447282,0 120.3565089035189,23.79335320163644,0 120.3563086206324,23.7933374074642,0 120.3563108427909,23.79245120848755,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Eulen_t3_a4_b2/2</name>
+			<visibility>0</visibility>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							120.3575039384036,23.79666251649322,0 120.3576647811345,23.79667995103517,0 120.3576868625803,23.79767631284473,0 120.3575054512146,23.79767631612003,0 120.3575039384036,23.79666251649322,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Eulen_t3_a4_b2/1</name>
+			<visibility>0</visibility>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							120.3573028218646,23.79668186551296,0 120.3574664185248,23.79668324019428,0 120.3574645521207,23.79769468188967,0 120.3572777885323,23.79768855018827,0 120.3573028218646,23.79668186551296,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Eulen_t3_a4_b2/6</name>
+			<visibility>0</visibility>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							120.354760265133,23.79345112760371,0 120.3549958884338,23.79344663039539,0 120.3549814825788,23.79423578072274,0 120.3547597200013,23.79424765709489,0 120.354760265133,23.79345112760371,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
