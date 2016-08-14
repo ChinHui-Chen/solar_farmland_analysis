@@ -1,18 +1,42 @@
+#!/usr/bin/python
+
 import os;
-import sys, getopt;
+import shutil
+import sys
+import getopt;
+from config import *
 
-# /Library/Frameworks/GDAL.framework/Versions/1.11/Programs/ogr2ogr -f 'ESRI Shapefile' Cihtong_t1_a1_b1.shp Cihtong_t1_a1_b1.kml
+def main(argv):
+   # get tagging folder list
+   tagging_folders = next(os.walk(TAGGING_FOLDER))[1]
 
-#folder_list = [ "../Baozhong", "../Cihtong", "../Dapi", "../Dounan", "../Huwei", "../Siluo" ]
-folder_list = [ "../tagging/Beigang", "../tagging/Lunbei", "../tagging/Eulen"]
+   # get kml files in each tagging folder
+   for tagging_folder in tagging_folders:
+      folder = TAGGING_FOLDER + "/" + tagging_folder
+      kml_files = os.listdir(folder)
 
-for folder in folder_list:
-   kml_list = os.listdir(folder)
+      for kml_file in kml_files:
+         if ".kml" in kml_file:
+            if "tbd" in kml_file:
+               continue
 
-   for kml in kml_list:
-      if ".kml" in kml:
-         name = os.path.splitext(kml)[0]
-         name_with_path = folder + "/" + name
-         cmd = "/Library/Frameworks/GDAL.framework/Versions/1.11/Programs/ogr2ogr -f 'ESRI Shapefile' %s.shp %s.kml" % ( name_with_path, name_with_path )
-         os.system( cmd )
+            # assume default t2t3_hybrid
+            timestamp_label = "t2t3_near_20151223";
+            if "t1" in kml_file:
+               timestamp_label = "t1_2013_1123"
+
+            # create shp folder
+            tmp_shp_folder = SHP_FOLDER + "_" + timestamp_label
+            try:
+               os.mkdir( tmp_shp_folder )
+            except:
+               shutil.rmtree( tmp_shp_folder )
+               os.mkdir( tmp_shp_folder )
+            
+            # generate shp file
+            cmd = "%s/ogr2ogr -f 'ESRI Shapefile' %s.shp %s" % (GDAL_PATH, tmp_shp_folder + "/" + kml_file, folder + "/" + kml_file )
+            os.system( cmd )
+
+if __name__ == "__main__":
+   main(sys.argv[1:]) 
 
