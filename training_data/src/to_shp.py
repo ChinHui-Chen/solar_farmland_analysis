@@ -10,6 +10,12 @@ def main(argv):
    # get tagging folder list
    tagging_folders = next(os.walk(TAGGING_FOLDER))[1]
 
+   # recreate shp folder
+   shutil.rmtree( SHP_FOLDER_T1_LABEL )
+   os.mkdir( SHP_FOLDER_T1_LABEL )
+   shutil.rmtree( SHP_FOLDER_T2T3_NEAR_LABEL )
+   os.mkdir( SHP_FOLDER_T2T3_NEAR_LABEL )
+
    # get kml files in each tagging folder
    for tagging_folder in tagging_folders:
       folder = TAGGING_FOLDER + "/" + tagging_folder
@@ -21,21 +27,16 @@ def main(argv):
                continue
 
             # assume default t2t3_hybrid
-            timestamp_label = "t2t3_near_20151223";
+            tmp_shp_folder = SHP_FOLDER_T2T3_NEAR_LABEL
             if "t1" in kml_file:
-               timestamp_label = "t1_2013_1123"
+               tmp_shp_folder = SHP_FOLDER_T1_LABEL
 
-            # create shp folder
-            tmp_shp_folder = SHP_FOLDER + "_" + timestamp_label
-            try:
-               os.mkdir( tmp_shp_folder )
-            except:
-               shutil.rmtree( tmp_shp_folder )
-               os.mkdir( tmp_shp_folder )
-            
             # generate shp file
             cmd = "%s/ogr2ogr -f 'ESRI Shapefile' %s.shp %s" % (GDAL_PATH, tmp_shp_folder + "/" + kml_file, folder + "/" + kml_file )
             os.system( cmd )
+
+   # generate merge shp
+
 
 if __name__ == "__main__":
    main(sys.argv[1:]) 

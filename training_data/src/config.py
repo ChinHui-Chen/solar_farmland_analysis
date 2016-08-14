@@ -1,4 +1,7 @@
 GDAL_PATH = "/Library/Frameworks/GDAL.framework/Versions/1.11/Programs"
 TAGGING_FOLDER = "../tagging"
 SHP_FOLDER = "shp"
-
+T1_LABEL = "t1_2013_1123"
+T2T3_NEAR_LABEL = "t2t3_near_20151223"
+SHP_FOLDER_T1_LABEL = SHP_FOLDER + "_" + T1_LABEL
+SHP_FOLDER_T2T3_NEAR_LABEL = SHP_FOLDER + "_" + T2T3_NEAR_LABEL 
