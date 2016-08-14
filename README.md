@@ -8,18 +8,15 @@ training_data/output 為最新已合併的shapefile
 
 ## Generate tagging shape file
 
-### Install required software
+  1. Install required software
+    1. python (>=2.7)
+    2. install GDAL: http://trac.osgeo.org/gdal/wiki/DownloadingGdalBinaries
 
-  * python
-  * install GDAL: http://trac.osgeo.org/gdal/wiki/DownloadingGdalBinaries
+  2. Update config.py
+    1. go to training_data/src and update GDAL_PATH variable
 
-### Update config.py
-
-  * go to training_data/src and update GDAL_PATH variable
-
-### Generate shpefile
-
-  * cd training_data; make
+  3. Generate shpefile
+    1. type `cd training_data; make`
 
 ## Contributor
 
