@@ -1,8 +1,9 @@
 
-make: kml_to_shp merge_shp
+make: kml_to_shp
 
 kml_to_shp:
+	cd src; python to_shp.py
 
-merge_shp:
-
+clean:
+	rm -rf src/shp_*
 
