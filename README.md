@@ -3,6 +3,14 @@
 # Introduction
 
 
+# Generate tagging shape file
+
+## Install required software
+
+## Update config.py
+
+## Run
+
 
 # Contributor
 
