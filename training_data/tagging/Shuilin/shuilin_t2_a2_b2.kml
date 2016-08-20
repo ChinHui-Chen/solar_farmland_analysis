@@ -2,17 +2,25 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>shuilin_t2_a2_b2.kml</name>
-	<StyleMap id="stylemap_id013">
+	<Style id="style147">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="stylemap_id090">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#style145</styleUrl>
+			<styleUrl>#style63</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#style133</styleUrl>
+			<styleUrl>#style129</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="style105">
+	<Style id="style157">
 		<LineStyle>
 			<color>ff0000ff</color>
 		</LineStyle>
@@ -20,93 +28,7 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<StyleMap id="stylemap_id0103">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style169</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style102</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="stylemap_id033">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style8</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style201</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="style117">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="style4">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="style183">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="style8">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="stylemap_id073">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style26</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style134</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="style149">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="style206">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="style77">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="style63">
+	<Style id="style131">
 		<LineStyle>
 			<color>ff0000ff</color>
 		</LineStyle>
@@ -122,52 +44,6 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<Style id="style98">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="stylemap_id068">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style94</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style83</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="stylemap_id074">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style7</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style175</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="stylemap_id032">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style75</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style3</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="style20">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
 	<Style id="style3">
 		<LineStyle>
 			<color>ff0000ff</color>
@@ -176,137 +52,7 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<StyleMap id="stylemap_id018">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style6</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style116</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="style129">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="style111">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="style187">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="style60">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="style46">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="stylemap_id027">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style198</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style202</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="style52">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="style41">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="style161">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="style201">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="stylemap_id062">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style98</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style149</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="style156">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="stylemap_id025">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style11</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style93</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="stylemap_id067">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style141</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style33</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="style169">
+	<Style id="style208">
 		<LineStyle>
 			<color>ff0000ff</color>
 		</LineStyle>
@@ -324,383 +70,7 @@
 			<styleUrl>#style27</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="style119">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="stylemap_id086">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style127</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style108</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="style191">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="style94">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="stylemap_id054">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style2</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style142</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="stylemap_id045">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style186</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style40</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="style83">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="stylemap_id087">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style4</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style82</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="stylemap_id094">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style131</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style188</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="style">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="style90">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="stylemap_id038">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style152</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style184</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="style131">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="stylemap_id088">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style60</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style183</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="style116">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="stylemap_id036">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style52</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style105</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="style7">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="style182">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="style11">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="style145">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="style16">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="style205">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="stylemap_id049">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style143</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style118</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="style76">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="style9">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="style141">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="stylemap_id037">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style164</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style22</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="style22">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="style158">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="style127">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="style184">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="style68">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="style2">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="style186">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="stylemap_id066">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style59</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style62</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="style164">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="style35">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
 	<Style id="style62">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="style59">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="style57">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="style107">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="stylemap_id092">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style196</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style161</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="style168">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="style196">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="style82">
 		<LineStyle>
 			<color>ff0000ff</color>
 		</LineStyle>
@@ -718,7 +88,7 @@
 			<styleUrl>#style37</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="style33">
+	<Style id="style7">
 		<LineStyle>
 			<color>ff0000ff</color>
 		</LineStyle>
@@ -726,7 +96,7 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<Style id="style93">
+	<Style id="style46">
 		<LineStyle>
 			<color>ff0000ff</color>
 		</LineStyle>
@@ -734,7 +104,7 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<Style id="style14">
+	<Style id="style151">
 		<LineStyle>
 			<color>ff0000ff</color>
 		</LineStyle>
@@ -742,84 +112,50 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<StyleMap id="stylemap_id053">
+	<Style id="style152">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="stylemap_id01">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#style77</styleUrl>
+			<styleUrl>#style81</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#style168</styleUrl>
+			<styleUrl>#style163</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="style75">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="style103">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="m_ylw-pushpin">
+	<StyleMap id="stylemap_id0103">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin</styleUrl>
+			<styleUrl>#style169</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+			<styleUrl>#style102</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="stylemap_id051">
+	<Style id="style63">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="stylemap_id027">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#style0</styleUrl>
+			<styleUrl>#style198</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#style119</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="style175">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="style208">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="style115">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="stylemap_id03">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style38</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style109</styleUrl>
+			<styleUrl>#style202</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Style id="style109">
@@ -830,16 +166,7 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<Style id="s_ylw-pushpin">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<Style id="style157">
+	<Style id="style202">
 		<LineStyle>
 			<color>ff0000ff</color>
 		</LineStyle>
@@ -847,206 +174,7 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<Style id="style28">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="style6">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="s_ylw-pushpin_hl">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="stylemap_id061">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style107</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style28</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="stylemap_id04">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style180</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style111</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="stylemap_id010">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style151</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style88</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="style163">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="stylemap_id098">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style35</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style85</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="style61">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="style140">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="stylemap_id039">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style206</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style20</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="style152">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="style81">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="style38">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="stylemap_id021">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style91</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style115</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="style34">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="stylemap_id00">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style114</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style191</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="style88">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="style96">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="style147">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="style133">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="style118">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="style74">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="style102">
+	<Style id="style75">
 		<LineStyle>
 			<color>ff0000ff</color>
 		</LineStyle>
@@ -1064,7 +192,277 @@
 			<styleUrl>#style46</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="style114">
+	<StyleMap id="stylemap_id068">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style94</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style83</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="style88">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="stylemap_id038">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style152</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style184</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id092">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style196</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style161</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="style61">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style175">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style90">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="stylemap_id032">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style75</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="style60">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style133">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style205">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style174">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style8">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="stylemap_id013">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style145</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style133</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="style116">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="stylemap_id04">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style180</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style111</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id037">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style164</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style22</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="style93">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style74">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="stylemap_id049">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style143</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style118</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="style11">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="stylemap_id066">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style59</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style62</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="style102">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style28">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style81">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style134">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style27">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style76">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style34">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="stylemap_id083">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style125</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style140</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id061">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style107</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style28</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="style22">
 		<LineStyle>
 			<color>ff0000ff</color>
 		</LineStyle>
@@ -1082,7 +480,17 @@
 			<styleUrl>#style117</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="style174">
+	<StyleMap id="stylemap_id088">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style60</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style183</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="style2">
 		<LineStyle>
 			<color>ff0000ff</color>
 		</LineStyle>
@@ -1090,7 +498,7 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<Style id="style27">
+	<Style id="style96">
 		<LineStyle>
 			<color>ff0000ff</color>
 		</LineStyle>
@@ -1098,7 +506,7 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<Style id="style193">
+	<Style id="style98">
 		<LineStyle>
 			<color>ff0000ff</color>
 		</LineStyle>
@@ -1106,7 +514,7 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<Style id="style180">
+	<Style id="style161">
 		<LineStyle>
 			<color>ff0000ff</color>
 		</LineStyle>
@@ -1114,7 +522,118 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<Style id="style143">
+	<Style id="style4">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="stylemap_id033">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style8</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style201</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="style158">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style82">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="stylemap_id094">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style131</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style188</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id039">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style206</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style20</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="style163">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style111">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style162">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style108">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style57">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style83">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style145">
 		<LineStyle>
 			<color>ff0000ff</color>
 		</LineStyle>
@@ -1132,17 +651,37 @@
 			<styleUrl>#style205</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="stylemap_id090">
+	<StyleMap id="stylemap_id051">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#style63</styleUrl>
+			<styleUrl>#style0</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#style129</styleUrl>
+			<styleUrl>#style119</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="style108">
+	<StyleMap id="stylemap_id078">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style74</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style162</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id02">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style193</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style158</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="style169">
 		<LineStyle>
 			<color>ff0000ff</color>
 		</LineStyle>
@@ -1150,7 +689,73 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<Style id="style134">
+	<Style id="style107">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style20">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style40">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style117">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style127">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style52">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="stylemap_id062">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style98</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style149</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="style26">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style164">
 		<LineStyle>
 			<color>ff0000ff</color>
 		</LineStyle>
@@ -1166,7 +771,291 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<Style id="style40">
+	<Style id="style118">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style0">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style193">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style183">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style180">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="stylemap_id073">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style26</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style134</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="style16">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style198">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="stylemap_id0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style166</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style187</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="style94">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="stylemap_id045">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style186</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style40</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="style115">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style38">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style37">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="stylemap_id054">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style142</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="style186">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style59">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style206">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style141">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="stylemap_id087">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style82</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id021">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style91</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style115</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="style201">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style33">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style143">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="stylemap_id086">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style127</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style108</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id053">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style77</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style168</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="style105">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style156">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style184">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="stylemap_id010">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style151</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style88</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="style91">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style41">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="style166">
 		<LineStyle>
 			<color>ff0000ff</color>
 		</LineStyle>
@@ -1184,16 +1073,165 @@
 			<styleUrl>#style103</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="stylemap_id0">
+	<Style id="style85">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style187">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="stylemap_id018">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#style166</styleUrl>
+			<styleUrl>#style6</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#style187</styleUrl>
+			<styleUrl>#style116</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="style119">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="stylemap_id03">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style38</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style109</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="style103">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style35">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style140">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="stylemap_id098">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style35</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style85</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="style149">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="stylemap_id074">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style7</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style175</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="stylemap_id025">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style11</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style93</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id036">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style52</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style105</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="style182">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style14">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="stylemap_id067">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style141</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style33</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="style">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
 	<StyleMap id="stylemap_id091">
 		<Pair>
 			<key>normal</key>
@@ -1204,7 +1242,7 @@
 			<styleUrl>#style147</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="style166">
+	<Style id="style129">
 		<LineStyle>
 			<color>ff0000ff</color>
 		</LineStyle>
@@ -1212,106 +1250,6 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<Style id="style26">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="stylemap_id048">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style182</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style90</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="style162">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="style202">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="stylemap_id055">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style76</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style156</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="stylemap_id078">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style74</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style162</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="stylemap_id083">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style125</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style140</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="style37">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="style198">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="stylemap_id06">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style61</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style14</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="stylemap_id01">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style81</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style163</styleUrl>
-		</Pair>
-	</StyleMap>
 	<StyleMap id="stylemap_id028">
 		<Pair>
 			<key>normal</key>
@@ -1332,7 +1270,7 @@
 			<styleUrl>#style41</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="style151">
+	<Style id="style9">
 		<LineStyle>
 			<color>ff0000ff</color>
 		</LineStyle>
@@ -1340,7 +1278,59 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<Style id="style0">
+	<Style id="style68">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style77">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style168">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style196">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="stylemap_id048">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style182</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style90</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id055">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style76</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style156</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="style6">
 		<LineStyle>
 			<color>ff0000ff</color>
 		</LineStyle>
@@ -1356,34 +1346,19 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<StyleMap id="stylemap_id02">
+	<StyleMap id="stylemap_id06">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#style193</styleUrl>
+			<styleUrl>#style61</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#style158</styleUrl>
+			<styleUrl>#style14</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="style85">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="style91">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
 	<Folder>
 		<name>shuilin_t2_a2_b2</name>
+		<open>1</open>
 		<Placemark>
 			<name>10</name>
 			<styleUrl>#stylemap_id068</styleUrl>
@@ -1743,19 +1718,6 @@
 					<LinearRing>
 						<coordinates>
 							120.2596969905584,23.57377272691844,0 120.2596956232812,23.57374282521913,0 120.2595913459814,23.57374824617684,0 120.2596012461332,23.57368355887371,0 120.2600251852352,23.57367749283041,0 120.2600181448302,23.57374196767831,0 120.2599599134547,23.57374158649333,0 120.2599602148399,23.57374456207036,0 120.2599632483222,23.57377452380413,0 120.2596969905584,23.57377272691844,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>27</name>
-			<styleUrl>#stylemap_id00</styleUrl>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
 						</coordinates>
 					</LinearRing>
 				</outerBoundaryIs>
@@ -2203,7 +2165,7 @@
 				<outerBoundaryIs>
 					<LinearRing>
 						<coordinates>
-							120.2081586761379,23.53102705114437,0 120.2088503433814,23.53094039824115,0 120.2088795956664,23.53109859612357,0 120.2081858684631,23.53119317945942,0 120.2081586761379,23.53102705114437,0 
+							120.2081586761379,23.53102705114437,0 120.2088503433814,23.53094039824115,0 120.2088795956664,23.53109859612357,0 120.2081858684631,23.53119317945943,0 120.2081586761379,23.53102705114437,0 
 						</coordinates>
 					</LinearRing>
 				</outerBoundaryIs>
