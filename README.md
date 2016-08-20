@@ -18,6 +18,17 @@ training_data/output 為最新已合併的shapefile
   3. Generate shpefile
     1. type `cd training_data; make`
 
+### generated shape file format
+
+We will also add the following field to the shape file.
+
+  * township: township name
+  * solar_time: t1, t2t3
+  * solar_type: a1, a2, ...
+  * solar_pos: b1, b2, ...
+  * Class: 1
+
+
 ## Contributor
 
   * Chan-Kuan Hou
