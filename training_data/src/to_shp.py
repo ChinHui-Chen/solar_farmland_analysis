@@ -1,5 +1,6 @@
 #!/usr/bin/python
 
+from osgeo import ogr
 import os;
 import shutil
 import sys
@@ -39,6 +40,17 @@ def kml_to_shp():
             cmd = "%s/ogr2ogr -f 'ESRI Shapefile' %s.shp %s" % (GDAL_PATH, tmp_shp_folder + "/" + kml_file, folder + "/" + kml_file )
             os.system( cmd )
 
+def add_field( shp_file, field_name, field_type, field_val ):
+         driver = ogr.GetDriverByName('ESRI Shapefile')
+         dataSource = driver.Open( shp_file , 1)
+         layer = dataSource.GetLayer()
+         field_defn = ogr.FieldDefn( field_name, field_type )
+         layer.CreateField(field_defn)
+         for i in layer:
+            layer.SetFeature(i)
+            i.SetField( field_name, field_val )
+            layer.SetFeature(i)
+
 def generate_merge_shp():
    # recreate output folder
    try:
@@ -56,6 +68,35 @@ def merge_shp( shp_label, shp_folder ):
    count = 0;
    for shp_file in shp_files:
       if ".shp" in shp_file:
+         # get t,a,b
+         shp_filename, _, _ = shp_file.split(".");
+         township, solar_time, solar_type, solar_pos = shp_filename.split("_");
+         if( solar_time != "t1" ):
+            solar_time = "t2t3"
+         combine = solar_time + "_" + solar_type + "_" + solar_pos
+
+         # update shp file field
+         add_field( shp_folder + "/" + shp_file, "Class", ogr.OFTInteger, 1 ) ;
+         add_field( shp_folder + "/" + shp_file, "township", ogr.OFTString, township ) ;
+         add_field( shp_folder + "/" + shp_file, "solar_time", ogr.OFTString, solar_time ) ;
+         add_field( shp_folder + "/" + shp_file, "solar_type", ogr.OFTString, solar_type ) ;
+         add_field( shp_folder + "/" + shp_file, "solar_pos", ogr.OFTString, solar_pos ) ;
+         add_field( shp_folder + "/" + shp_file, "combine", ogr.OFTString, combine ) ;
+         
+         #while feature:
+         #      feature.CreateField(field_defn)
+         #      feature.SetField("Class", 1)
+         #      layer.SetFeature(feature)
+         #      feature = layer.GetNextFeature()
+
+         #cmd = "%s/ogrinfo %s -sql \"ALTER TABLE %s.kml ADD COLUMN township character(50)\"" % ( GDAL_PATH, shp_folder + "/" + shp_file , shp_filename )
+         #print cmd
+         #os.system(cmd)
+         #cmd = "%s/ogrinfo %s -sql \"UPDATE TABLE %s.kml township = \'%s\'\"" % ( GDAL_PATH, shp_folder + "/" + shp_file , shp_filename, township )
+         #print cmd
+         #os.system(cmd)
+         #cmd = "%s/ogrinfo %s -sql \"ALTER TABLE %s.kml ADD COLUMN Class integer(1)\"" % ( GDAL_PATH, shp_folder + "/" + shp_file , shp_filename )
+
          if count == 0:
             cmd = "%s/ogr2ogr -f 'ESRI Shapefile' %s.shp %s" % ( GDAL_PATH, OUTPUT_FOLDER + "/" + shp_label, shp_folder + "/" + shp_file )
             os.system(cmd)
