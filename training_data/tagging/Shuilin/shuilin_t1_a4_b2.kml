@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
-	<name>shuilin_t1_a4_b2.kmz</name>
-	<Style id="style0">
+	<name>shuilin_t1_a4_b2.kml</name>
+	<Style id="style43">
 		<LineStyle>
 			<color>ff0000ff</color>
 		</LineStyle>
@@ -10,51 +10,27 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<Style id="style6">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="style4">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="style5">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="stylemap_id01">
+	<StyleMap id="stylemap_id075">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#style4</styleUrl>
+			<styleUrl>#style31</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#style2</styleUrl>
+			<styleUrl>#style50</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="stylemap_id00">
+	<StyleMap id="stylemap_id014">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#style5</styleUrl>
+			<styleUrl>#style139</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#style3</styleUrl>
+			<styleUrl>#style43</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="style3">
+	<Style id="style139">
 		<LineStyle>
 			<color>ff0000ff</color>
 		</LineStyle>
@@ -62,25 +38,17 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<Style id="style2">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="stylemap_id0">
+	<StyleMap id="stylemap_id047">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#style1</styleUrl>
+			<styleUrl>#style65</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#style6</styleUrl>
+			<styleUrl>#style189</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="style1">
+	<Style id="style159">
 		<LineStyle>
 			<color>ff0000ff</color>
 		</LineStyle>
@@ -88,29 +56,61 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<StyleMap id="stylemap_id02">
+	<Style id="style189">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style86">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style65">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style50">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style31">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="stylemap_id015">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#style</styleUrl>
+			<styleUrl>#style159</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#style0</styleUrl>
+			<styleUrl>#style86</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="style">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
 	<Folder>
 		<name>shuilin_t1_a4_b2</name>
 		<Placemark>
 			<name>1</name>
-			<styleUrl>#stylemap_id01</styleUrl>
+			<styleUrl>#stylemap_id014</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -124,7 +124,7 @@
 		</Placemark>
 		<Placemark>
 			<name>2</name>
-			<styleUrl>#stylemap_id00</styleUrl>
+			<styleUrl>#stylemap_id047</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -138,7 +138,7 @@
 		</Placemark>
 		<Placemark>
 			<name>3</name>
-			<styleUrl>#stylemap_id0</styleUrl>
+			<styleUrl>#stylemap_id015</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -152,7 +152,7 @@
 		</Placemark>
 		<Placemark>
 			<name>4</name>
-			<styleUrl>#stylemap_id02</styleUrl>
+			<styleUrl>#stylemap_id075</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>

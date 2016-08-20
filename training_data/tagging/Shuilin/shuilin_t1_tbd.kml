@@ -1,19 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
-	<name>shuilin_t1_tbd.kmz</name>
-	<visibility>0</visibility>
-	<StyleMap id="stylemap_id0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="style">
+	<name>shuilin_t1_tbd.kml</name>
+	<Style id="style53">
 		<LineStyle>
 			<color>ff0000ff</color>
 		</LineStyle>
@@ -21,7 +10,17 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<Style id="style0">
+	<StyleMap id="stylemap_id07">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style146</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style53</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="style146">
 		<LineStyle>
 			<color>ff0000ff</color>
 		</LineStyle>
@@ -31,11 +30,9 @@
 	</Style>
 	<Folder>
 		<name>shuilin_t1_tbd</name>
-		<visibility>0</visibility>
 		<Placemark>
 			<name>1</name>
-			<visibility>0</visibility>
-			<styleUrl>#stylemap_id0</styleUrl>
+			<styleUrl>#stylemap_id07</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
