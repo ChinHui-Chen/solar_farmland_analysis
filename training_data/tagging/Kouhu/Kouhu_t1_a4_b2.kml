@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Kouhu_t1_a4_b2.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>Kouhu_t1_a4_b2</name>
+		<Placemark>
+			<name>Kouhu_t1_a4_b2/1</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							120.1990171843354,23.54037326275764,0 120.1990250929852,23.54033845544781,0 120.1993379184059,23.5403415075464,0 120.1993118814927,23.54037636291413,0 120.1990171843354,23.54037326275764,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Kouhu_t1_a4_b2/2</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							120.1989090027109,23.54031970206137,0 120.1989110901556,23.54029486226509,0 120.1988769419371,23.54029487241711,0 120.1988720454767,23.54025512489914,0 120.1990190655444,23.54025206600827,0 120.1990176641877,23.54031966918666,0 120.1989090027109,23.54031970206137,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Kouhu_t1_a4_b2/3</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							120.1990260517219,23.54032278851643,0 120.1990299946072,23.54025809716409,0 120.1993323081426,23.54025800806456,0 120.1993322050689,23.54032269801368,0 120.1990260517219,23.54032278851643,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Kouhu_t1_a4_b2/4</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							120.1990252657057,23.54015157615762,0 120.1990183982131,23.54008577166033,0 120.1993353063265,23.54008567812417,0 120.1993297111572,23.54014858959785,0 120.1990252657057,23.54015157615762,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Kouhu_t1_a4_b2/5</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							120.1991706012396,23.54019243738196,0 120.1991796145556,23.54017190114495,0 120.1993296685795,23.54016893680953,0 120.1993268375701,23.54018944766403,0 120.1991706012396,23.54019243738196,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Kouhu_t1_a4_b2/6</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							120.1989169476178,23.53999429191201,0 120.1989093006443,23.5399591505411,0 120.1988746773713,23.53995916076724,0 120.198875063657,23.53992716045677,0 120.1990154774416,23.53992447118996,0 120.1990188780468,23.53999426188516,0 120.1989169476178,23.53999429191201,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Kouhu_t1_a4_b2/7</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							120.1990294365728,23.53999698299399,0 120.1990308412945,23.53993241895249,0 120.1993248817825,23.53992702798995,0 120.1993300221907,23.53999962158161,0 120.1990294365728,23.53999698299399,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Kouhu_t1_a4_b2/8</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							120.1990262182642,23.53984122647691,0 120.199017862858,23.53977317154017,0 120.1993330653967,23.53976811415422,0 120.1993355596372,23.5398334769325,0 120.1990262182642,23.53984122647691,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Kouhu_t1_a4_b2/9</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							120.198878695893,23.53967824823181,0 120.1988684091715,23.53960775775301,0 120.1993234220113,23.53960762385775,0 120.1993281824543,23.53967811586126,0 120.198878695893,23.53967824823181,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Kouhu_t1_a4_b2/10</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							120.1988700406968,23.53971432069566,0 120.1988628915769,23.53968542223775,0 120.1993231424562,23.53968289446928,0 120.1993230263239,23.53971418721563,0 120.1988700406968,23.53971432069566,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Kouhu_t1_a4_b2/11</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							120.1988258596103,23.53956876784396,0 120.1988248439476,23.53953490376388,0 120.1993407262067,23.53953485244095,0 120.1993284644201,23.53957089580908,0 120.1988258596103,23.53956876784396,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Kouhu_t1_a4_b2/12</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							120.1988334091821,23.5395237255049,0 120.1988289099863,23.5394578233429,0 120.1991399213977,23.53945556881069,0 120.1991514863257,23.53952140365501,0 120.1988334091821,23.5395237255049,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Kouhu_t1_a4_b2/13</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							120.199166216472,23.53951694898969,0 120.1991540815346,23.53945989347815,0 120.1993191922044,23.53945575362157,0 120.1993261857634,23.53951479322897,0 120.199166216472,23.53951694898969,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
