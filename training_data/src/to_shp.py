@@ -83,19 +83,28 @@ def merge_shp( shp_label, shp_folder ):
          add_field( shp_folder + "/" + shp_file, "solar_pos", ogr.OFTString, solar_pos ) ;
          add_field( shp_folder + "/" + shp_file, "combine", ogr.OFTString, combine ) ;
          
-         #while feature:
-         #      feature.CreateField(field_defn)
-         #      feature.SetField("Class", 1)
-         #      layer.SetFeature(feature)
-         #      feature = layer.GetNextFeature()
+         driver = ogr.GetDriverByName('ESRI Shapefile')
+         dataSource = driver.Open( shp_folder + "/" + shp_file , 1)
 
-         #cmd = "%s/ogrinfo %s -sql \"ALTER TABLE %s.kml ADD COLUMN township character(50)\"" % ( GDAL_PATH, shp_folder + "/" + shp_file , shp_filename )
-         #print cmd
-         #os.system(cmd)
-         #cmd = "%s/ogrinfo %s -sql \"UPDATE TABLE %s.kml township = \'%s\'\"" % ( GDAL_PATH, shp_folder + "/" + shp_file , shp_filename, township )
-         #print cmd
-         #os.system(cmd)
-         #cmd = "%s/ogrinfo %s -sql \"ALTER TABLE %s.kml ADD COLUMN Class integer(1)\"" % ( GDAL_PATH, shp_folder + "/" + shp_file , shp_filename )
+         layer = dataSource.GetLayer()
+         for i in layer:
+            geom = i.GetGeometryRef()
+            print geom.GetGeometryName()
+            #print geom.GetPointCount()
+            #for j in range(0, geom.GetPointCount()):
+            #   pt = geom.GetPoint(j)
+            #   print "%i). POINT (%d %d)" %(j, pt[0], pt[1])
+               
+            #print geom.GetGeometryCount()
+            #ring = geom.GetGeometryRef(0)
+            #points = ring.GetPointCount()
+            #for p in xrange(points):
+               #print p.getX()
+               #p.setX( p.getX() + 5 )
+               #p.setY( p.getY() + 5 )
+               #lon, lat, z = ring.GetPoint(p)
+               #x = ring.GetPointRef(p)
+               #print x.getX()
 
          if count == 0:
             cmd = "%s/ogr2ogr -f 'ESRI Shapefile' %s.shp %s" % ( GDAL_PATH, OUTPUT_FOLDER + "/" + shp_label, shp_folder + "/" + shp_file )
