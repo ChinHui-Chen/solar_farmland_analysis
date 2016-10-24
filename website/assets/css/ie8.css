@@ -1,73 +1,118 @@
 /*
-	Phantom by HTML5 UP
+	Tessellate by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+/* Basic */
+
+	.image {
+		position: relative;
+		-ms-behavior: url("assets/js/ie/PIE.htc");
+	}
+
+		.image img {
+			position: relative;
+			-ms-behavior: url("assets/js/ie/PIE.htc");
+		}
+
+	.button {
+		position: relative;
+		-ms-behavior: url("assets/js/ie/PIE.htc");
+	}
+
+/* Section/Article */
+
+	section > .last-child,
+	article > .last-child,
+	section.last-child,
+	article.last-child {
+		margin-bottom: 0;
+	}
+
+/* List */
+
+	ul.icons a {
+		position: relative;
+		-ms-behavior: url("assets/js/ie/PIE.htc");
+		border: solid 1px #ddd;
+	}
+
 /* Form */
 
-	form .field {
-		float: none !important;
-		width: 100% !important;
-		padding-left: 0 !important;
+	form input.text,
+	form select,
+	form .select,
+	form textarea {
+		position: relative;
+		-ms-behavior: url("assets/js/ie/PIE.htc");
+		border: solid 1px #ddd;
+		line-height: 1.25em;
+	}
+
+	form select {
+		position: relative;
+	}
+
+		form select option {
+			color: #000;
+		}
+
+	form .select select {
+		width: 100%;
+	}
+
+	form .select:before {
+		display: none;
 	}
 
 /* Button */
 
-	input[type="submit"],
-	input[type="reset"],
-	input[type="button"],
-	button,
-	.button {
-		border: solid 2px #585858 !important;
+	.button.alt {
+		border: solid 1px #ddd;
 	}
 
-		input[type="submit"]:hover,
-		input[type="reset"]:hover,
-		input[type="button"]:hover,
-		button:hover,
-		.button:hover {
-			border-color: #f2849e !important;
-		}
+/* Feature Icon */
 
-		input[type="submit"].special,
-		input[type="reset"].special,
-		input[type="button"].special,
-		button.special,
-		.button.special {
-			border: none !important;
-		}
-
-/* Tiles */
-
-	.tiles article > .image:before, .tiles article > .image:after {
-		display: none;
+	.feature-icon {
+		padding-bottom: 0;
 	}
 
-/* Header */
-
-	#header .logo .symbol {
-		display: none;
-	}
-
-	#header nav ul li a[href="#menu"] {
-		text-indent: 0;
-		width: auto;
-		font-size: 0.8em;
-	}
-
-		#header nav ul li a[href="#menu"]:before, #header nav ul li a[href="#menu"]:after {
+		.feature-icon:before, .feature-icon:after {
 			display: none;
 		}
 
-/* Footer */
+		.feature-icon .icon {
+			position: relative;
+			-ms-behavior: url("assets/js/ie/PIE.htc");
+			background: #fff;
+		}
 
-	#footer > .inner section {
-		width: 50%;
-		margin-left: 3em;
+			.feature-icon .icon:before {
+				font-size: 6em;
+				color: #3d3d3d;
+			}
+
+/* Header */
+
+	#header {
+		background-image: url("../../images/header.jpg");
+		background-size: cover;
+		background-position: auto;
+		background-repeat: no-repeat;
+		-ms-behavior: url("assets/js/ie/backgroundsize.min.htc");
 	}
 
-		#footer > .inner section:first-child {
-			margin-left: 0;
-			width: 40%;
-		}
+/* Main Sections */
+
+	.main > .content.style1 {
+		filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#412e4c, endColorstr=#a56365);
+	}
+
+	.main > .content.style2 {
+		filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#85505f, endColorstr=#384955);
+	}
+
+	.main > .content.style3 {
+		filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#2f394e, endColorstr=#5f796b);
+	}
