@@ -126,25 +126,15 @@ def crop_solar_data(patch_size, shapefile_path, raster_path, dest_path, feature_
    while ( 1 ):
 	poly = lyr.GetNextFeature()
 	if(poly is None):
-	    return feature_id
+            return feature_id
 	points = []
 	pixels = []
 	geom = poly.GetGeometryRef()
         if geom is None:
-           continue
+            continue
 
-#	iden = poly.GetFieldAsString(0).replace("/","_").replace(" ","_")
-#	pts = geom.GetGeometryRef(0)
-#	for p in range(pts.GetPointCount()):
-#		points.append((pts.GetX(p), pts.GetY(p)))
-#	for p in points:
-#		pixels.append(world2Pixel(geoTrans, p[0], p[1]))
-#
-
-	# filter size >patch_size
-	print geom.GetGeometryName()
+	# filter size>patch_size
 	env = geom.GetEnvelope()				
-
 	lrx, lry = world2Pixel(geoTrans, env[1], env[2])
 	ulx, uly = world2Pixel(geoTrans, env[0], env[3])
 	if ( (lrx-ulx)>patch_size or (lry-uly)>patch_size ):
@@ -153,27 +143,26 @@ def crop_solar_data(patch_size, shapefile_path, raster_path, dest_path, feature_
  #       env_w = lrx-ulx
  #       env_h = lry-uly
 
-	# set crop_patch ul xy
+	# set crop_patch upper left x,y
 	ul_offx = math.ceil((patch_size-(lrx-ulx))/2)
 	ul_offy = math.ceil((patch_size-(lry-uly))/2)
-
 	ulx -= ul_offx
 	uly -= ul_offy
-
+        
+        # check boundary case
 	if( ulx < 0 or uly < 0 or (ulx+patch_size)>=w or (uly+patch_size)>=h ):
 		continue
 
 	# crop
 	print "crop %s" % (feature_id)
-
 	cropped_image = image_crop.crop((int(ulx), int(uly), int(ulx+patch_size), int(uly+patch_size)))
 
         # paster mask for test
 #	cropped_image.paste( (200,200,200), [int(ul_offx),int(ul_offy), int(ul_offx + env_w), int(ul_offy + env_h) ] )
 
-	#cropped_image.save("sp_training_data_patch100/sp_%s.tif" % feature_id)
 	cropped_image.save("%s/sp_%s.jpg" % (dest_path ,feature_id), 'JPEG')
 
+        # post processing
 	feature_id += 1
 
 if __name__ == "__main__":
