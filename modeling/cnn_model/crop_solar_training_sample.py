@@ -14,16 +14,16 @@ def main():
     shapefile_path = '/Users/chinhui/Works/SolarFarmland/solar_farmland_analysis/training_data/output/t2t3_near_20151223_fs2_g004_crs_user.shp'
     raster_path = '/Users/chinhui/Works/SolarFarmland/Datasets/Fusion/FS2_G004_MS_L4f_20150122_020517_ot_NC.tif'
     # crop solar data
-#    feature_id = crop_solar_data(patch_size, shapefile_path, raster_path, "sp_training_data_patch100_tmp", 0 )
+    feature_id = crop_solar_data(patch_size, shapefile_path, raster_path, "solar_no_dataaug_patch100/solar", 0 )
     # crop non solar data
-    progress_id = crop_non_solar_data(patch_size, shapefile_path, raster_path, "sp_training_data_patch100_tmp2", 0, 50)
+    progress_id = crop_non_solar_data(patch_size, shapefile_path, raster_path, "solar_no_dataaug_patch100/other", 0, 300)
 
     shapefile_path = '/Users/chinhui/Works/SolarFarmland/solar_farmland_analysis/training_data/output/t2t3_near_20151223_fs2_g005_crs_user.shp'
     raster_path = '/Users/chinhui/Works/SolarFarmland/Datasets/Fusion/FS2_G005_MS_L4f_20150122_020520_ot_NC.tif'
     # crop solar data
-#    crop_solar_data(patch_size, shapefile_path, raster_path, "sp_training_data_patch100_tmp", feature_id )
+    crop_solar_data(patch_size, shapefile_path, raster_path, "solar_no_dataaug_patch100/solar", feature_id )
     # crop non solar data
-    crop_non_solar_data(patch_size, shapefile_path, raster_path, "sp_training_data_patch100_tmp2", progress_id, 20)
+    crop_non_solar_data(patch_size, shapefile_path, raster_path, "solar_no_dataaug_patch100/other", progress_id, 300)
 
 
 def crop_non_solar_data(patch_size, shapefile_path, raster_path, dest_path, progress_id ,sample_size):
