@@ -15,17 +15,17 @@ def main():
     shapefile_path = '/Users/chinhui/Works/SolarFarmland/solar_farmland_analysis/training_data/output/t2t3_near_20151223_fs2_g004_groupby_crs_user.shp'
     raster_path = '/Users/chinhui/Works/SolarFarmland/Datasets/Fusion/FS2_G004_MS_L4f_20150122_020517_ot_NC.tif'
     # crop solar data
-    feature_id = crop_solar_data(patch_size, shapefile_path, raster_path, "solar_no_dataaug_patch100_groupby/solar", 0 )
+    feature_id = crop_solar_data(patch_size, shapefile_path, raster_path, "solar_no_dataaug_patch100_groupby_tmp/solar", 0 )
     # crop non solar data
-    progress_id = crop_non_solar_data(patch_size, shapefile_path, raster_path, "solar_no_dataaug_patch100_groupby/other", 0, 300)
+#    progress_id = crop_non_solar_data(patch_size, shapefile_path, raster_path, "solar_no_dataaug_patch100_groupby/other", 0, 300)
 
     #shapefile_path = '/Users/chinhui/Works/SolarFarmland/solar_farmland_analysis/training_data/output/t2t3_near_20151223_fs2_g005_crs_user.shp'
     shapefile_path = '/Users/chinhui/Works/SolarFarmland/solar_farmland_analysis/training_data/output/t2t3_near_20151223_fs2_g005_groupby_crs_user.shp'
     raster_path = '/Users/chinhui/Works/SolarFarmland/Datasets/Fusion/FS2_G005_MS_L4f_20150122_020520_ot_NC.tif'
     # crop solar data
-    crop_solar_data(patch_size, shapefile_path, raster_path, "solar_no_dataaug_patch100_groupby/solar", feature_id )
+#    crop_solar_data(patch_size, shapefile_path, raster_path, "solar_no_dataaug_patch100_groupby/solar", feature_id )
     # crop non solar data
-    crop_non_solar_data(patch_size, shapefile_path, raster_path, "solar_no_dataaug_patch100_groupby/other", progress_id, 300)
+#    crop_non_solar_data(patch_size, shapefile_path, raster_path, "solar_no_dataaug_patch100_groupby/other", progress_id, 300)
 
 
 def crop_non_solar_data(patch_size, shapefile_path, raster_path, dest_path, progress_id ,sample_size):
@@ -142,8 +142,8 @@ def crop_solar_data(patch_size, shapefile_path, raster_path, dest_path, feature_
 	if ( (lrx-ulx)>patch_size or (lry-uly)>patch_size ):
 		continue
 
- #       env_w = lrx-ulx
- #       env_h = lry-uly
+        solar_w = lrx-ulx
+        solar_h = lry-uly
 
 	# set crop_patch upper left x,y
 	ul_offx = math.ceil((patch_size-(lrx-ulx))/2)
@@ -163,6 +163,23 @@ def crop_solar_data(patch_size, shapefile_path, raster_path, dest_path, feature_
 #	cropped_image.paste( (200,200,200), [int(ul_offx),int(ul_offy), int(ul_offx + env_w), int(ul_offy + env_h) ] )
 
 	cropped_image.save("%s/sp_%s.jpg" % (dest_path ,feature_id), 'JPEG')
+
+        # handle data augment
+        patch_center_x = int(ulx+patch_size/2) 
+        patch_center_y = int(uly+patch_size/2) 
+        
+        # flip
+	cropped_image.transpose(Image.FLIP_LEFT_RIGHT).save("%s/sp_%s_aug_flip_h.jpg" % (dest_path ,feature_id), 'JPEG')
+	cropped_image.transpose(Image.FLIP_TOP_BOTTOM).save("%s/sp_%s_aug_flip_v.jpg" % (dest_path ,feature_id), 'JPEG')
+        
+        # rotate
+        for d in range(0, 360, 30):
+            cropped_image = image_crop.rotate( d , center=(patch_center_x, patch_center_y)).crop( (int(ulx), int(uly), int(ulx+patch_size), int(uly+patch_size)) )
+	    cropped_image.save("%s/sp_%s_aug_r%d.jpg" % (dest_path ,feature_id, d), 'JPEG')
+
+
+        # shift
+
 
         # post processing
 	feature_id += 1
